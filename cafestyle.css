@@ -27,7 +27,7 @@ body {
     z-index: 3;
 }
 .header img {
-    margin-left: 10px;
+    margin-left: 200px;
     height: 50px;
     margin-top: 9px;
 }
@@ -57,8 +57,8 @@ body {
 .banner {
     background-color: black;
     z-index: 1;
-    height: 60px;
-    margin-top: 350px;
+    height: 70px;
+    margin-top: 320px;
     width: 100%;
 }
 a {
@@ -67,8 +67,80 @@ a {
 .image-box {
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 .navlinks {
     margin-top: 24px;
     align-content: center;
+    margin-right: 200px;
+}
+.featured {
+    display: flex;
+    flex-direction: column;
+}
+figure {
+    padding: 40px;
+}
+figcaption {
+    margin-top: 10px;
+}
+#locations {
+    background-image: url(./locations.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.locations-container {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+}
+.locations-container h2 {
+    margin-top: 30px;
+}
+.location-1 {
+    border: 1px solid seashell;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display: flex; 
+    flex-direction: column;
+    line-height: 2.5;
+    margin-top: 20px;
+}
+.location-2 {
+    border: 1px solid seashell;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display: flex; 
+    flex-direction: column;
+    line-height: 2.5;
+    margin-top: 20px;
+}
+.location-3 {
+    border: 1px solid seashell;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display: flex; 
+    flex-direction: column;
+    line-height: 2.5;
+    margin-top: 20px;
+}
+.copyright {
+    text-align: left;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.location-1 h4 {
+    margin-top: 30px;
+}
+.location-2 h4 {
+    margin-top: 30px;
+}
+.location-3 h4 {
+    margin-top: 30px;
 }
